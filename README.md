@@ -1,6 +1,7 @@
 # [Coding Academy - Base Gallery]
 A responsive portfolio grid to be used by Coding Academy students
 
+a link for github-pages : https://wesp3.github.io/ca-gallery-master/
 
 ## Usage
 
