@@ -41,10 +41,9 @@ function renderModal(id) {
     <p>${proj.desc}</p>
     <ul class="list-inline">
       <li>${proj.publishedAt}</li>
-      <li>Client: Threads</li>
-      <li>Category: Illustration</li>
+      <li>Used : ${proj.labels}</li>
     </ul>
-    <a href="${proj.url}"> Click to check out this project</a>
+    <a href="${proj.url}"> Click here to check out this project </a>
     <br>
     <button class="btn btn-primary" data-dismiss="modal" type="button">
         <i class="fa fa-times"></i>
@@ -60,4 +59,4 @@ function onContact() {
     var msg = $('.msg-contact').val();
     var str = `https://mail.google.com/mail/?view=cm&fs=1&to=${mail}&su=${sbj}&body=${msg}`;
     window.open(str);
-}
+}   
