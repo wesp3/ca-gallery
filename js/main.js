@@ -1,1 +1,1 @@
-console.log('Starting up');
+console.log('Starting up the projet gallery');
