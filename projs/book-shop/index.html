@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+
+        <title>Book shop</title>
+    </head>
+    <body onload="onInit()">
+    <div class="page">
+        <h1 class="Title">My Book Basket</h1>
+        <div class="add-book">
+            <input class="book-title" data="name-input-placeholder"
+                type="text" name="value" placeholder="Book title?" />
+            <input class="book-price" data="price-input-placeholder"
+                type="text" name="value" placeholder="Book price?" />
+            <button class="btn" onclick="onAddBook()">Add Book</button>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Book id</th>
+                        <th>Book image</th>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Rating</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="modal-cont">
+            <div class="modal">
+                <button class="close" onclick="onCloseModal()">Close</button>
+                <h3></h3>
+                <p></p>
+                <img class="modal-img" />
+                <h4>Book price:</h4>
+                <p class="modal-price"> </p>
+                <h3 class="rate">Rate this Book! </h3>
+                <input type=button value="-" class="decrement"
+                    onclick/>
+                <input type=button value="+" class="increment"
+                    onclick />
+                <span id="output-area"></span>
+            </div>
+        </div>
+    </div>
+    </body>
+    <script src="js/services/util.js"></script>
+    <script src="js/services/storage-service.js"></script>
+    <script src="js/services/book-service.js"></script>
+    <script src="js/book-controller.js"></script>
+</html>
