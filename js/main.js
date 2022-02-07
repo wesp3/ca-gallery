@@ -21,7 +21,5 @@ function renderProjs() {
     </div>
   </div> 
   `
-    
-    
     $('.proj-list').html(strHtml)
 }
