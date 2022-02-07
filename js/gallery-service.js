@@ -17,7 +17,7 @@ var gProjs = [
         title: "Book-Shop-Page",
         desc: "A project which shows a single page of books in a basket with an option to rate the book, to read a short description on the book, delete it from the list and update the price",
         img:"bookshop.jpg",
-        url: "https://wesp3.github.io/book-shop/",
+        url: "projs/book-shop/index.html",
         publishedAt: "February 2022",
         labels: ["Tables " , "HTML ", "CSS " , "JS "]
     },
@@ -28,7 +28,7 @@ var gProjs = [
         title: "Pacman",
         desc: "A simple pacman-like clone",
         img: "pacman.jpg",
-        url:"proj/Pacmanv1",
+        url:"projs/Pacmanv1/index.html",
         publishedAt: "January 2022",
         labels: ["Matrixes " , "Games "]
     },
@@ -39,7 +39,7 @@ var gProjs = [
         title: "To-Do-Page",
         desc: "A daily task adder and remover",
         img: "todo.jpg",
-        url: "https://wesp3.github.io/to-do/",
+        url: "projs/proj-todo/index.html",
         publishedAt: "February 2022",
         labels: ["HTML ", "CSS " , "JS "]
     },

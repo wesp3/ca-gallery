@@ -1,9 +1,10 @@
-console.log("Starting up the projet gallery");
+console.log("Starting up the project gallery");
 
 //gallery-controller file
 
 function onInit() {
   renderProjs();
+  $('.btn-contact').click(onContact);
 }
 
 function renderProjs() {
@@ -39,7 +40,7 @@ function renderModal(id) {
     <img class="img-fluid d-block mx-auto" src="img/portfolio/${proj.img}" alt="">
     <p>${proj.desc}</p>
     <ul class="list-inline">
-      <li>Date: January 2022</li>
+      <li>${proj.publishedAt}</li>
       <li>Client: Threads</li>
       <li>Category: Illustration</li>
     </ul>
