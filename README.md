@@ -1,8 +1,11 @@
-# [Cosing Academy - Base Gallery]
+# [Coding Academy - Base Gallery]
 A responsive portfolio grid to be used by Coding Academy students
 
+Here is a link to click https://wesp3.github.io/ca-gallery/
 
+Created on a basis of bootstrap&jsquery template.
 ## Usage
+
 
 ### Basic Usage
 
