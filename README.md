@@ -1,7 +1,7 @@
 # [Coding Academy - Base Gallery]
 A responsive portfolio grid to be used by Coding Academy students.
 
-Here is a link to check out the gallery of early projects of the course:
+Here is a link to check out the gallery of early projects made during the bootcamp:
 
 https://wesp3.github.io/ca-gallery/
 
